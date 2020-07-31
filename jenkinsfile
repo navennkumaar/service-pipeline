@@ -1,7 +1,7 @@
 node{
   stage ('Clone From Git') {
 
-    git url: 'https://github.com/ganeshdev1/service-pipeline.git'
+    git 'https://github.com/navennkumaar/service-pipeline.git'
   }
     stage('Continue Trigger')
     {
